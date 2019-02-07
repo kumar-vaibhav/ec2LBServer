@@ -1,10 +1,10 @@
 const net = require('net');
-const port = 80;
-const host = '127.0.0.1';
+const port = 3001;
+// const host = '127.0.0.1';
 
 
 const server = net.createServer();
-server.listen(port, host, () => {
+server.listen(port, () => {
     console.log('TCP Server is running on port ' + port + '.');
 });
 
